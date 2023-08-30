@@ -10,6 +10,11 @@ module.exports = {
     transition:{
       'nav': 'transition: opacity 0.3s ease-in-out',
     },
+
+    screens:{
+      'xd': '1480px',
+      // => @media (min-width: 1480px) { ... }
+    },
     extend: {},
   },
   plugins: [],
