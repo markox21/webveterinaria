@@ -29,6 +29,7 @@
           transform: scale(1.1);
       }
 
+
     </style>
     
 </head>
@@ -75,10 +76,10 @@
             <img class="d-block w-100" src="imagenes/zyro-image.png" alt="First slide">
             <div class="hidden md:block carousel-caption">
               <img src="imagenes/veterinarios-especialistas-banner3.jpg" class="hidden xl:block flex mx-auto mb-16" alt="">
-              <button type="button" class="rounded-full bg-gradient-to-tr from-green-300 to-yellow-300 w-64 h-16"><a href="https:www.google.com" class="text-black text-2xl font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
+              <button type="button" id="botonxd" class="rounded-full w-64 h-16"><a href="https:www.google.com" class="text-black text-2xl font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
             </div>
             <div class="md:hidden carousel-caption flex justify-center">
-              <button type="button" class="rounded-full bg-gradient-to-tr from-green-300 to-yellow-300 w-32 h-8"><a href="https:www.google.com" class="text-black text-sm font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
+              <button type="button" id="botonxd" class="rounded-full w-32 h-8"><a href="https:www.google.com" class="text-black text-sm font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
             </div>
 
           </div>
@@ -86,10 +87,10 @@
             <img class="d-block w-100" src="imagenes/vet2.jpeg" alt="Second slide">
             <div class="hidden md:block carousel-caption">
               <img src="imagenes/veterinarios-especialistas-banner3.jpg" class="hidden xl:block flex relative mx-auto mb-16" alt="">
-              <button type="button" class="rounded-full bg-gradient-to-tr from-green-300 to-yellow-300 w-64 h-16"><a href="https:www.google.com" class="text-black text-2xl font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
+              <button type="button" id="botonxd" class="rounded-full w-64 h-16"><a href="https:www.google.com" class="text-black text-2xl font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
             </div>
             <div class="md:hidden carousel-caption flex justify-center">
-              <button type="button" class="rounded-full bg-gradient-to-tr from-green-300 to-yellow-300 w-32 h-8"><a href="https:www.google.com" class="text-black text-sm font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
+              <button type="button" id="botonxd" class="rounded-full w-32 h-8"><a href="https:www.google.com" class="text-black text-sm font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
             </div>
 
           </div>
@@ -97,10 +98,10 @@
             <img class="d-block w-100" src="imagenes/cerca-veterinario-cuidando-perro (1) (1).jpg" alt="Third slide">
             <div class="hidden md:block carousel-caption">
               <img src="imagenes/veterinarios-especialistas-banner3.jpg" class="hidden xl:block flex relative mx-auto mb-16" alt="">
-              <button type="button" class="rounded-full bg-gradient-to-tr from-green-300 to-yellow-300 w-64 h-16"><a href="https:www.google.com" class="text-black text-2xl font-semibold font-helvetica " target="blank">¡CONTACTANOS!</a></button>
+              <button type="button" id="botonxd" class="rounded-full w-64 h-16"><a href="https:www.google.com" class="text-black text-2xl font-semibold font-helvetica " target="blank">¡CONTACTANOS!</a></button>
             </div>
             <div class="md:hidden carousel-caption flex justify-center">
-              <button type="button" class="rounded-full bg-gradient-to-tr from-green-300 to-yellow-300 w-32 h-8"><a href="https:www.google.com" class="text-black text-sm font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
+              <button type="button" id="botonxd" class="rounded-full w-32 h-8"><a href="https:www.google.com" class="text-black text-sm font-semibold font-" target="blank">¡CONTACTANOS!</a></button>
             </div>
 
           </div>
@@ -118,7 +119,7 @@
 <!--QUIENES SOMOS-->
       <div class="w-full max-w mx-auto my-12">
         <div class="bg-gray-200 p-20">
-          <h1 class="text-4xl font-semibold mb-4 text-center text-purple-600">Sobre Nosotros</h1>
+          <h1 class="text-4xl font-extrabold mb-4 text-center text-purple-600">Sobre Nosotros</h1>
           <p class="text-gray-600 text-center text-xl mb-4">Somos una pequeña clínica veterinaria llamada <b>ElMister</b>, realizamos todo 
             tipo de servicios para sus mascotas, desde <b>cirugías hasta chequeos 
             médicos y baños</b>.</p>
@@ -152,7 +153,7 @@
         </div>
       </div>
       
-      
+<!--TEXTO-->
       <div class="w-full max-w mx-auto mt-16">
         <div class="">
           <h1 class="text-2xl font-semibold mb-2 text-center text-gray-600 underline">Somos Especialistas</h1>
@@ -164,45 +165,153 @@
 <!---GRID SERVICIOS-->
 
       <div class="w-full max-w-screen-xl mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
-        <div class="relative overflow-hidden hover-scale">
+        <div class="relative overflow-hidden rounded-lg hover-scale">
           <img class="w-full h-auto" src="imagenes/medicinageneral.png" alt="Imagen 1" />
           <div class="absolute inset-0 flex items-center justify-center text-white text-lg bg-black bg-opacity-50">
             Medicina General
           </div>
         </div>
-        <div class="relative overflow-hidden hover-scale">
+        <div class="relative overflow-hidden rounded-lg hover-scale">
           <img class="w-full h-auto" src="imagenes/medicinaespecializada.png" alt="Imagen 2" />
           <div class="absolute inset-0 flex items-center justify-center text-white text-lg bg-black bg-opacity-50">
             Cirugia Especializada
           </div>
         </div>
-        <div class="relative overflow-hidden hover-scale">
-          <img class="w-full h-auto" src="imagen3.jpg" alt="Imagen 3" />
+        <div class="relative overflow-hidden rounded-lg hover-scale">
+          <img class="w-full h-auto" src="imagenes/medcom.jpg" alt="Imagen 3" />
           <div class="absolute inset-0 flex items-center justify-center text-white text-lg bg-black bg-opacity-50">
             Medicina Complementaria
           </div>
         </div>
-        <div class="relative overflow-hidden hover-scale">
-          <img class="w-full h-auto" src="imagen4.jpg" alt="Imagen 4" />
+        <div class="relative overflow-hidden rounded-lg hover-scale">
+          <img class="w-full h-auto" src="imagenes/dentista.jpg" alt="Imagen 4" />
           <div class="absolute inset-0 flex items-center justify-center text-white text-lg bg-black bg-opacity-50">
             Dentista Veterinario
           </div>
         </div>
-        <div class="relative overflow-hidden hover-scale">
+        <div class="relative overflow-hidden rounded-lg hover-scale">
           <img class="w-full h-auto" src="imagenes/farmacia.png" alt="Imagen 5" />
           <div class="absolute inset-0 flex items-center justify-center text-white text-lg bg-black bg-opacity-50">
             Farmacia
           </div>
         </div>
-        <div class="relative overflow-hidden hover-scale">
-          <img class="w-full h-auto" src="imagen6.jpg" alt="Imagen 6" />
+        <div class="relative overflow-hidden rounded-lg hover-scale">
+          <img class="w-full h-auto" src="imagenes/otros.jpg" alt="Imagen 6" />
           <div class="absolute inset-0 flex items-center justify-center text-white text-lg bg-black bg-opacity-50">
             Otros Servicios
           </div>
         </div>
       </div>
 
+      <!--VIDEO-->
 
+      <div class="flex justify-center items-center my-20 p-4">
+        <div class="w-full md:w-2/3 lg:w-1/2">
+          <div class="relative overflow-hidden" style="padding-top: 50.25%;">
+            <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/IKd9yKc53iI" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!--FORM-->
+
+      <div class="w-full max-w mx-auto mt-16">
+        <div class="">
+          <h1 class="text-2xl font-semibold mb-2 text-center text-gray-600 underline">Buscanos de diferentes maneras</h1>
+          <h1 class="text-purple-600 text-center text-5xl mb-3 font-extrabold">CONTACTO</h1>
+          <img src="imagenes/huella.png" class="mx-auto w-8 mb-20">
+        </div>
+      </div>
+
+
+      <div class="flex flex-col md:flex-row justify-center items-stretch items-center">
+        <form class="bg-black p-6 rounded-lg text-white md:mr-4 md:w-2/3 lg:w-1/4 mb-4">
+          <h1 class="text-2xl font-semibold mb-4 text-center pt-2">Envia tu consulta aquí</h1>
+          <div class="mb-4">
+            <label for="nombre" class="block mb-2">Nombre:</label>
+            <input type="text" id="nombre" class="w-full px-3 py-2 bg-black text-white border-bottom outline-none">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block mb-2">Email:</label>
+            <input type="email" id="email" class="w-full px-3 py-2 bg-black text-white border-bottom outline-none">
+          </div>
+          <div class="mb-4">
+            <label for="telefono" class="block mb-2">Celular:</label>
+            <input type="number" id="telefono" class="w-full px-3 py-2 bg-black text-white border-bottom outline-none">
+          </div>
+          <div class="mb-4">
+            <label for="telefono" class="block mb-2">Asunto:</label>
+            <input type="tel" id="telefono" class="w-full px-3 py-2 bg-black text-white border-bottom outline-none">
+          </div>
+          <div class="mb-4">
+            <label for="mensaje" class="block mb-2">Mensaje:</label>
+            <textarea id="mensaje" class="w-full px-3 py-2 bg-black text-white border-bottom outline-none"></textarea>
+          </div>
+          <div class="mb-4">
+            <button type="submit" id="botonxd" class="w-full py-2 bg-greenp text-black rounded-full font-bold text-xl">Enviar Mensaje</button>
+          </div>
+        </form>
+        <div class="p-6 rounded-lg justify-center text-black md:w-2/3 lg:w-1/4">
+          <h2 class="text-2xl font-bold mb-4 text-center">ESCRIBENOS</h2>
+          <p class="mb-4 underline text-center text-xl font-semibold border-bottom border-black pb-4 ">ElMisterVet@gmail.com</p>
+          <h2 class="text-2xl font-bold mb-4 text-center">VISITANOS</h2>
+          <p class="mb-4 text-center text-xl border-bottom border-black pb-4 ">Jr. Pedro D’Onofrio 183, Lima, Perú</p>
+          <h2 class="text-2xl font-bold mb-4 text-center">LLAMANOS</h2>
+          <p class="mb-4 text-center text-xl pb-4 ">999-999-999</p>
+        </div>
+      </div>
+
+<!--FOOTER-->
+
+  <footer class="bg-purple-600 text-white p-6">
+    <div class="flex flex-wrap justify-center">
+      <div class="w-auto sm:w-1/2 md:w-1/4 lg:w-1/4 p-4">
+        <div class="h-auto rounded-md flex flex-col p-2">
+          <img class="w-24" src="imagenes/logoreal.jpg" alt="">
+        </div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 p-4">
+        <div class="h-auto rounded-md flex flex-col p-2">
+          <p class="font-bold text-2xl ">CONTACTANOS:</p>
+          <p class="text-xl pt-2 font-semibold">BREÑA:</p>
+          <p class="text-sm pt-2 font-semibold">Telefono: 999-999-999</p>
+          <p class="text-sm pt-2 font-semibold">Whatsapp: 999-999-999</p>
+          <p class="text-sm pt-2 font-semibold">Dirección: Jr. Pedro D’Onofrio 183  Lima, Perú</p>
+          <a href="mailto:ElMisterVet@gmail.com" class=" pt-2 text-sm font-semibold hover:underline">ElMisterVet@gmail.com</a>
+        </div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 p-4">
+        <div class="h-auto rounded-md flex flex-col p-2">
+          <p class="font-bold text-2xl ">HORARIOS DE TRABAJO:</p>
+          <p class="text-xl pt-2 font-semibold">BREÑA:</p>
+          <p class="text-sm pt-2 font-semibold">Lunes a Sabado de 9am a 7pm</p>
+          <p class="text-sm pt-2 font-semibold">Emergencias: 24 horas</p>
+        </div>
+      </div>
+      <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 p-4">
+        <div class="h-auto rounded-md flex flex-col p-2">
+          <p class="font-bold text-2xl mb-2">SIGUENOS:</p>
+          <div class="flex space-x-2">
+          <a href="https://www.facebook.com/" target="_blank"><svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="#0F0F0F"/>
+            </svg></a>
+
+          <a href="https://www.instagram.com/" target="_blank"> <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#0F0F0F"/>
+              <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#0F0F0F"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#0F0F0F"/>
+              </svg></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full mt-4">
+      <div class="h-auto rounded-md mx-auto">
+        <p class="text-sm text-center">&copy; ElMister - Todos los derechos reservados</p>
+        <p class="text-sm text-center">Developed by Marko :v</p>
+      </div>
+    </div>
+  </footer>
       
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
