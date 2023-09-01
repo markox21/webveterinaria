@@ -39,10 +39,10 @@
     </style>
   </head>
   <!--NAV-->
-  <body class="">
-    <nav class="py-1 bg-gray-200">
+  <body class="flex flex-col justify-center">
+    <nav class="py-1 bg-purple-100">
       <div class="container mx-auto flex justify-between items-center px-4">
-        <div class="flex items-center hidden md:block">
+        <div class=" items-center hidden md:block">
           <img
             src="imagenes/logoreal.jpg"
             alt="Logo"
@@ -52,7 +52,7 @@
         <div class="hidden md:block">
           <a
             href="#"
-            class="text-black hover:underline px-3 font-medium text-lg"
+            class="text-black hover:underline pr-3 font-medium text-lg"
             >Inicio</a
           >
           <a
@@ -147,7 +147,7 @@
           <div class="hidden md:block carousel-caption">
             <img
               src="imagenes/veterinarios-especialistas-banner3.jpg"
-              class="hidden xl:block flex mx-auto mb-16"
+              class="hidden xl:block relative mx-auto mb-16"
               alt=""
             />
             <button type="button" id="botonxd" class="rounded-full w-64 h-16">
@@ -159,7 +159,7 @@
               >
             </button>
           </div>
-          <div class="md:hidden carousel-caption flex justify-center">
+          <div class="md:hidden carousel-caption justify-center">
             <button type="button" id="botonxd" class="rounded-full w-32 h-8">
               <a
                 href="https:www.google.com"
@@ -179,7 +179,7 @@
           <div class="hidden md:block carousel-caption">
             <img
               src="imagenes/veterinarios-especialistas-banner3.jpg"
-              class="hidden xl:block flex relative mx-auto mb-16"
+              class="hidden xl:block relative mx-auto mb-16"
               alt=""
             />
             <button type="button" id="botonxd" class="rounded-full w-64 h-16">
@@ -211,7 +211,7 @@
           <div class="hidden md:block carousel-caption">
             <img
               src="imagenes/veterinarios-especialistas-banner3.jpg"
-              class="hidden xl:block flex relative mx-auto mb-16"
+              class="hidden xl:block relative mx-auto mb-16"
               alt=""
             />
             <button type="button" id="botonxd" class="rounded-full w-64 h-16">
@@ -227,7 +227,7 @@
             <button type="button" id="botonxd" class="rounded-full w-32 h-8">
               <a
                 href="https:www.google.com"
-                class="text-black text-sm font-semibold font-"
+                class="text-black text-sm font-semibold font-helvetica"
                 target="blank"
                 >¡CONTACTANOS!</a
               >
@@ -256,30 +256,30 @@
     </div>
 
     <!--QUIENES SOMOS-->
-    <div class="w-full max-w mx-auto my-12">
-      <div class="bg-gray-200 p-20">
-        <h1 class="text-4xl font-extrabold mb-4 text-center text-purple-600">
-          Sobre Nosotros
-        </h1>
-        <p class="text-gray-600 text-center text-xl mb-4">
-          Somos una pequeña clínica veterinaria llamada <b>ElMister</b>,
-          realizamos todo tipo de servicios para sus mascotas, desde
-          <b>cirugías hasta chequeos médicos y baños</b>.
-        </p>
-        <p class="text-gray-600 text-center text-xl">
-          Tenemos esta veterinaria desde hace años y hemos podido ganar clientes
-          fieles en la comunidad gracias a nuestro excelencia y
-          <b>buen trato a los clientes</b>.
-        </p>
+
+    <div class="flex justify-center">
+      <div class="w-full mx-auto pt-3">
+          <div class="bg-gray-200 p-20 rounded-lg">
+              <h1 class="text-4xl font-extrabold mb-4 text-purple-600 text-center">
+                  Sobre Nosotros
+              </h1>
+              <p class="text-gray-600 text-center text-xl mb-4">
+                  Somos una pequeña clínica veterinaria llamada <b>ElMister</b>,
+                  realizamos todo tipo de servicios para sus mascotas, desde
+                  <b>cirugías hasta chequeos médicos y baños</b>.
+              </p>
+              <p class="text-gray-600 text-center text-xl">
+                  Tenemos esta veterinaria desde hace años y hemos podido ganar clientes
+                  fieles en la comunidad gracias a nuestra excelencia y
+                  <b>buen trato a los clientes</b>.
+              </p>
+          </div>
       </div>
-    </div>
-
+  </div>
     <!--GRID MISION-->
-
-    <div
-      class="w-full max-w-screen-xl mx-auto p-4 grid grid-cols-1 md:grid-cols-3 gap-4"
-    >
-      <div class="relative overflow-hidden rounded-lg group hover-scale">
+    <div class="w-full mx-auto p-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+      <div class="relative overflow-hidden">
         <img
           class="w-full h-auto"
           src="imagenes/servicios.jpg"
@@ -291,15 +291,15 @@
           <a href="" class="hover:font-semibold">NUESTROS SERVICIOS</a>
         </div>
       </div>
-      <div class="relative overflow-hidden rounded-lg group hover-scale">
-        <img class="w-full h-auto" src="imagenes/mision.jpg" alt="Imagen 2" />
+      <div class="relative overflow-hidden ">
+        <img class="w-full h-auto" src="imagenes/mision.jpg" alt="Imagen 2"/>
         <div
           class="absolute inset-0 flex items-center justify-center text-white text-xl bg-black bg-opacity-50 transition-opacity group-hover:opacity-100"
         >
           <a href="" class="hover:font-semibold">MISION</a>
         </div>
       </div>
-      <div class="relative overflow-hidden rounded-lg group hover-scale">
+      <div class="relative overflow-hidden">
         <img class="w-full h-auto" src="imagenes/vision.jpg" alt="Imagen 3" />
         <div
           class="absolute inset-0 flex items-center justify-center text-white text-xl bg-black bg-opacity-50 transition-opacity group-hover:opacity-50"
@@ -308,9 +308,10 @@
         </div>
       </div>
     </div>
+    </div>
 
     <!--TEXTO-->
-    <div class="w-full max-w mx-auto mt-16">
+    <div class="mt-16 flex justify-center ">
       <div class="">
         <h1
           class="text-2xl font-semibold mb-2 text-center text-gray-600 underline"
@@ -327,7 +328,7 @@
     <!---GRID SERVICIOS-->
 
     <div
-      class="w-full max-w-screen-xl mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+      class="w-full max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
     >
       <div class="relative overflow-hidden rounded-lg hover-scale">
         <img
@@ -391,7 +392,7 @@
 
     <div class="flex justify-center items-center my-20 p-4">
       <div class="w-full md:w-2/3 lg:w-1/2">
-        <div class="relative overflow-hidden" style="padding-top: 50.25%">
+        <div class="relative overflow-hidden" style="padding-top: 50.26%">
           <iframe
             class="absolute inset-0 w-full h-full"
             src="https://www.youtube.com/embed/IKd9yKc53iI"
@@ -495,12 +496,12 @@
     <!--FOOTER-->
 
     <footer
-      class="bg-purple-600 text-white p-6 flex flex-row flex-wrap justify-around"
+      class="bg-purple-600 text-white p-6 flex flex-row flex-wrap justify-center"
     >
       <div class="flex flex-wrap justify-between">
-        <div class="w-auto sm:w-1/2 md:w-1/4 lg:w-1/4 p-4"></div>
-        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 p-6">
-          <div class="h-auto rounded-md flex flex-col p-2">
+        <div class="w-auto sm:w-1/2 md:w-1/4 lg:w-1/4 pt-4"></div>
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 pt-6">
+          <div class="h-auto rounded-md flex flex-col pt-2">
             <p class="font-bold text-2xl">CONTACTANOS:</p>
             <p class="text-xl pt-2 font-semibold">BREÑA:</p>
             <p class="text-sm pt-2 font-semibold">Telefono: 999-999-999</p>
@@ -515,8 +516,8 @@
             >
           </div>
         </div>
-        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 p-4">
-          <div class="h-auto rounded-md flex flex-col p-2">
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 pt-4">
+          <div class="h-auto rounded-md flex flex-col pt-2">
             <p class="font-bold text-2xl">HORARIOS DE TRABAJO:</p>
             <p class="text-xl pt-2 font-semibold">BREÑA:</p>
             <p class="text-sm pt-2 font-semibold">
@@ -525,8 +526,8 @@
             <p class="text-sm pt-2 font-semibold">Emergencias: 24 horas</p>
           </div>
         </div>
-        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 p-4">
-          <div class="h-auto rounded-md flex flex-col p-2">
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 pt-4">
+          <div class="h-auto rounded-md flex flex-col pt-2">
             <p class="font-bold text-2xl mb-2">SIGUENOS:</p>
             <div class="flex space-x-2">
               <a href="https://www.facebook.com/" target="_blank"
@@ -574,8 +575,8 @@
           </div>
         </div>
       </div>
-      <div class="w-full mt-4">
-        <div class="h-auto rounded-md mx-auto">
+      <div class="w-full mt-12">
+        <div class="h-auto mx-auto">
           <p class="text-sm text-center">
             &copy; ElMister - Todos los derechos reservados
           </p>
@@ -602,3 +603,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+
